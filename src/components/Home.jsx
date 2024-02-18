@@ -1,12 +1,19 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import styles from './Home.css';
+import avatar from '../assets/images/avatar.jpg'
 
 
 const Home = () => {
         return (
-            <div>
-                <h1>Welcome to my Portfolio</h1>
-                <p>Learn more about us.</p>
+            <div className='row'>
+                <div className='row col-5'>
+                <h1 className='text'>Welcome to my Portfolio</h1>
+                <p className='text'>Learn more about us.</p>
+                </div>
+                <div className='col-5'>
+                    <img src={avatar} alt='My photo' width={500} height={500}></img>
+                </div>
             </div>
         );
 }
