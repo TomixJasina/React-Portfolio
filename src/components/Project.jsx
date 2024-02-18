@@ -27,14 +27,14 @@ function Projects() {
                     <div className="info-wraper">
                       <div className="links">
                         <a
-                          href={project.deployedLink}
+                          href={project.live_app_url}
                           target="_blank"
                           rel="noreferrer"
                         >
                           Deployed
                         </a>
                         <a
-                          href={project.githubLink}
+                          href={project.repository_url}
                           target="_blank"
                           rel="noreferrer"
                         >
