@@ -1,12 +1,56 @@
-function Project() {
-    return(
-        <div className='projectCard'>
-            <h1>{projectData.title}</h1>
-            <a>Deployed</a>
-            <a>Github</a>
-            <img src={projectData.image} alt={projectData.title}/>
+import React from "react";
+import { useState, useEffect } from "react";
+import portfolioData from "../assets/projects/projects.json";
+
+function Projects() {
+  const [projects, setProjects] = useState([]);
+  useEffect(() => {
+    setProjects(portfolioData);
+  }, []);
+
+  return (
+    <>
+      <h1>Portfolio page</h1>
+      <div className="container-xxl">
+        <div className="row row-cols-1 row-cols-md-2 g-4">
+          {projects.map((project) => {
+            return (
+              <div className="col" key={project.id}>
+                <div className="card">
+                  <img
+                    src={project.image}
+                    className="card-img-top"
+                    alt="card-image"
+                  ></img>
+                  <div className="card-img-overlay">
+                    <h5 className="card-title">{project.title}</h5>
+                    <div className="info-wraper">
+                      <div className="links">
+                        <a
+                          href={project.deployedLink}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Deployed
+                        </a>
+                        <a
+                          href={project.githubLink}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Github
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
         </div>
-    )
+      </div>
+    </>
+  );
 }
 
-export default Project;
+export default Projects;
