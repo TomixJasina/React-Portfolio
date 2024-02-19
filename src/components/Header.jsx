@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router-dom';
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <Link className="navbar-brand" to="/">
           Portfolio

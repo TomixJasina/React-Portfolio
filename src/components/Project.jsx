@@ -11,7 +11,7 @@ function Projects() {
   return (
     <>
       <h1 className="text-white m-3">My projects</h1>
-      <div className="container-xxl">
+      <div className="container">
         <div className="row row-cols-1 row-cols-md-2 g-4">
           {projects.map((project) => {
             return (

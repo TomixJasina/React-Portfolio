@@ -3,12 +3,6 @@ background-image: url("../assets/images/space3.png");
 background-size: cover;
 }
 
-.home {
-    position: center;
-    color: white;
-    background-color: gray;
-}
-
 .text {
     position: center;
     color: white;

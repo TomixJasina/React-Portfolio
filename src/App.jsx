@@ -3,9 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './components/About';
 import Contact from './components/Contact';
 import Home from './components/Home';
-import Header from './components/Header';
+import NavigationBar from './components/Header';
 import Project from './components/Project';
-import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
@@ -15,7 +14,7 @@ function App() {
     <>
     <Router>
       <div>
-    <Header/>
+    <NavigationBar/>
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
