@@ -10,33 +10,32 @@ function Projects() {
 
   return (
     <>
-      <h1>Portfolio page</h1>
+      <h1 className="text-white m-3">My projects</h1>
       <div className="container-xxl">
         <div className="row row-cols-1 row-cols-md-2 g-4">
           {projects.map((project) => {
             return (
               <div className="col" key={project.id}>
-                <div className="card">
+                <div className="card bg-black" >
                   <img
                     src={project.image}
                     className="card-img-top"
-                    alt="card-image"
+                    alt={project.title}
+                    height="350px"
                   ></img>
-                  <div className="card-img-overlay">
-                    <h5 className="card-title">{project.title}</h5>
+                  <div className="card-img">
+                    <h3 className="card-title text-white">{project.title}</h3>
                     <div className="info-wraper">
                       <div className="links">
                         <a
+                          className="mx-3 btn btn-dark"
                           href={project.live_app_url}
-                          target="_blank"
-                          rel="noreferrer"
                         >
                           Deployed
                         </a>
                         <a
+                          className="mx-3 btn btn-dark"
                           href={project.repository_url}
-                          target="_blank"
-                          rel="noreferrer"
                         >
                           Github
                         </a>
