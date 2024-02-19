@@ -1,8 +1,6 @@
 // About.js
 import React from 'react';
-import Resume from '../assets/resume/Resume.pdf'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'react-bootstrap';
 
 const About = () => {
 	return (
@@ -16,9 +14,6 @@ const About = () => {
                 My journey into the world of coding is interwoven with my diverse interests, which significantly shape my approach to development.
 				</h4>		
 		</div>
-		<div className="mt-3">
-              <Button href={Resume} download="My_Resume.pdf" variant="dark" size='lg'>Download My CV</Button>
-        </div>
 		</div>
 	);
 }
