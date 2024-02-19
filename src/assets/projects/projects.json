@@ -30,8 +30,8 @@
       {
         "id": 5,
         "title": "Password Generator",
-        "live_app_url": "https://tomixjasina.github.io/Password-Generator/",
-        "repository_url": "https://github.com/TomixJasina/Password-Generator",
+        "live_app_url": "https://github.com/TomixJasina/Password-Generator",
+        "repository_url": "https://tomixjasina.github.io/Password-Generator/",
         "image": "src/assets/images/passwrodGenerator.png"
       },
       {
