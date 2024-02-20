@@ -1,12 +1,66 @@
 import React from "react";
-import { useState, useEffect } from "react";
-import portfolioData from "../assets/projects/projects.json";
+// import { useState, useEffect } from "react";
+// import portfolioData from "../assets/projects/projects.json";
+import CurioCityImg from '../assets/images/curiocity.png';
+import BootstrapImg from '../assets/images/bootstrap.png';
+import CodeQuizImg from '../assets/images/codeQuiz.png';
+import DailyPlannerImg from '../assets/images/dailyPlanner.png';
+import WeatherAppImg from '../assets/images/weatherApp.png';
+import PasswrodGeneratorImg from '../assets/images/passwrodGenerator.png';
+
 
 function Projects() {
-  const [projects, setProjects] = useState([]);
-  useEffect(() => {
-    setProjects(portfolioData);
-  }, []);
+  // const [projects, setProjects] = useState([]);
+  // useEffect(() => {
+  //   setProjects(portfolioData);
+  // }, []);
+
+
+  const projects = [
+    {
+      id: 1,
+      title: "Curio City",
+      live_app_url: "https://paulinasiwko.github.io/CurioCity/",
+      repository_url: "https://github.com/TomixJasina/CurioCity",
+      image: CurioCityImg
+    },
+    {
+        id: 2,
+        title: "Weather App",
+        live_app_url: "https://tomixjasina.github.io/Weather_dashboard/",
+        repository_url: "https://github.com/TomixJasina/Weather_dashboard",
+        image: WeatherAppImg
+      },
+      {
+        id: 3,
+        title: "Daily Planner",
+        live_app_url: "https://github.com/TomixJasina/Daily_Planner",
+        repository_url: "https://tomixjasina.github.io/Daily_Planner/",
+        image: DailyPlannerImg
+      },
+      {
+        id: 4,
+        title: "Coding Quiz",
+        live_app_url: "https://tomixjasina.github.io/Code_Quiz/index.html",
+        repository_url: "https://github.com/TomixJasina/Code_Quiz",
+        image: CodeQuizImg
+      },
+      {
+        id: 5,
+        title: "Password Generator",
+        live_app_url: "https://github.com/TomixJasina/Password-Generator",
+        repository_url: "https://tomixjasina.github.io/Password-Generator/",
+        image: PasswrodGeneratorImg
+      },
+      {
+        id: 6,
+        title: "Bootstrap Portfolio",
+        live_app_url: "https://tomixjasina.github.io/Bootstrap-Portfolio/",
+        repository_url: "https://github.com/TomixJasina/Bootstrap-Portfolio",
+        image: BootstrapImg
+      }
+
+]
 
   return (
     <>

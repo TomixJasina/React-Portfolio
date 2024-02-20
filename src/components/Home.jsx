@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from './Home.css';
+import './Home.css';
 import avatar from '../assets/images/avatar.png'
 import Image from 'react-bootstrap/Image';
 
