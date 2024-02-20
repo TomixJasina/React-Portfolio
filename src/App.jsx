@@ -9,7 +9,7 @@ import React from 'react'
 
 function App() {
   return (
-    <Router basename='/React-Portfolio'>
+    <Router>
     <NavigationBar/>
     <Routes>
       <Route path="/" element={<Home/>}/>
