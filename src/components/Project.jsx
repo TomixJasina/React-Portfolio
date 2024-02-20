@@ -1,6 +1,4 @@
 import React from "react";
-// import { useState, useEffect } from "react";
-// import portfolioData from "../assets/projects/projects.json";
 import CurioCityImg from '../assets/images/curiocity.png';
 import BootstrapImg from '../assets/images/bootstrap.png';
 import CodeQuizImg from '../assets/images/codeQuiz.png';
@@ -10,11 +8,6 @@ import PasswrodGeneratorImg from '../assets/images/passwrodGenerator.png';
 
 
 function Projects() {
-  // const [projects, setProjects] = useState([]);
-  // useEffect(() => {
-  //   setProjects(portfolioData);
-  // }, []);
-
 
   const projects = [
     {
