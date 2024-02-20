@@ -4,42 +4,42 @@
       "title": "Curio City",
       "live_app_url": "https://paulinasiwko.github.io/CurioCity/",
       "repository_url": "https://github.com/TomixJasina/CurioCity",
-      "image": "../src/assets/images/curiocity.png"
+      "image": "./src/assets/images/curiocity.png"
     },
     {
         "id": 2,
         "title": "Weather App",
         "live_app_url": "https://tomixjasina.github.io/Weather_dashboard/",
         "repository_url": "https://github.com/TomixJasina/Weather_dashboard",
-        "image": "../src/assets/images/weatherApp.png"
+        "image": "./src/assets/images/weatherApp.png"
       },
       {
         "id": 3,
         "title": "Daily Planner",
         "live_app_url": "https://github.com/TomixJasina/Daily_Planner",
         "repository_url": "https://tomixjasina.github.io/Daily_Planner/",
-        "image": "../src/assets/images/dailyPlanner.png"
+        "image": "./src/assets/images/dailyPlanner.png"
       },
       {
         "id": 4,
         "title": "Coding Quiz",
         "live_app_url": "https://tomixjasina.github.io/Code_Quiz/index.html",
         "repository_url": "https://github.com/TomixJasina/Code_Quiz",
-        "image": "../src/assets/images/codeQuiz.png"
+        "image": "./src/assets/images/codeQuiz.png"
       },
       {
         "id": 5,
         "title": "Password Generator",
         "live_app_url": "https://github.com/TomixJasina/Password-Generator",
         "repository_url": "https://tomixjasina.github.io/Password-Generator/",
-        "image": "../src/assets/images/passwrodGenerator.png"
+        "image": "./src/assets/images/passwrodGenerator.png"
       },
       {
         "id": 6,
         "title": "Bootstrap Portfolio",
         "live_app_url": "https://tomixjasina.github.io/Bootstrap-Portfolio/",
         "repository_url": "https://github.com/TomixJasina/Bootstrap-Portfolio",
-        "image": "../src/assets/images/bootstrap.png"
+        "image": "./src/assets/images/bootstrap.png"
       }
 
 ]
