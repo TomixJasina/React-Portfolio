@@ -33,7 +33,7 @@ git clone `https://github.com/TomixJasina/React-Portfolio.git`
 
   ## Screenshot
 
-  [Link to deployed page](https://tomixjasina.github.io/)
+  [Link to deployed page](https://tomixjasina.github.io/React-Portfolio/)
 
  ![tomixjasina github io_](https://github.com/TomixJasina/React-Portfolio/assets/148002314/44fad44b-acaa-4f42-bc91-7aa6665e88f4)
 
