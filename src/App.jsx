@@ -10,7 +10,6 @@ import React from 'react'
 function App() {
   return (
     <Router>
-      <div>
     <NavigationBar/>
     <Routes>
       <Route path="/" element={<Home/>}/>
@@ -18,9 +17,8 @@ function App() {
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/project" element={<Project/>}/>
     </Routes>
-    </div>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
